@@ -1,9 +1,0 @@
-
-services:
-  - type: web
-    name: insta-caption-api
-    env: python
-    plan: free
-    buildCommand: ""
-    startCommand: gunicorn main:app
-    autoDeploy: false
